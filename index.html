@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annika Chadha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #000;
+            background: #fff;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+            color: #ff1493;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            font-weight: 400;
+            color: #666;
+            line-height: 1.6;
+            max-width: 650px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #ff1493;
+        }
+
+        section {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 35px;
+            color: #000;
+        }
+
+        .section-with-accent h2 {
+            color: #ff1493;
+        }
+
+        .item {
+            margin-bottom: 45px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .item-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #000;
+        }
+
+        .item-title a {
+            color: #ff1493;
+            text-decoration: none;
+        }
+
+        .item-title a:hover {
+            text-decoration: underline;
+        }
+
+        .item-meta {
+            font-size: 13px;
+            color: #999;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .item-description {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .accent-dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: #ffd700;
+            border-radius: 50%;
+            margin: 0 4px;
+        }
+
+        .award-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .award {
+            padding: 18px;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            background: #fafafa;
+        }
+
+        .award-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ff1493;
+            margin-bottom: 4px;
+        }
+
+        .award-year {
+            font-size: 12px;
+            color: #999;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 13px;
+            color: #999;
+        }
+
+        .contact-link {
+            color: #ff1493;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .research-highlight {
+            font-weight: 700;
+            color: #ff1493;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            nav {
+                gap: 20px;
+            }
+
+            .award-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Annika Chadha.</h1>
+            <p class="subtitle">Designing assistive technology and creating access to STEM for the next generation of innovators.</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#press">Press</a>
+                <a href="#research">Research</a>
+                <a href="#awards">Awards</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <div class="item-description">
+                <p style="margin-bottom: 15px;">I'm a junior at duPont Manual High School studying mechanical and chemical engineering. My work centers on designing assistive devices that expand mobility and independence for elderly users and people with mobility limitations.</p>
+                <p style="margin-bottom: 15px;">Through my research at <span class="research-highlight">MIT's Research Science Institute</span> and independent projects at LVL1 Makerspace, I've developed prototypes including the OmniWheel Walker, VitaSeat, and MagGRIP. I hold a <span class="research-highlight">provisional patent</span> and have won multiple grand awards at Regeneron ISEF.</p>
+                <p>Beyond research, I founded <span class="research-highlight">Step Forward 501(c)(3)</span>, a nonprofit conducting early education outreach, and <span class="research-highlight">Hack the Track</span>, Kentucky's first student-run hackathon. I'm passionate about building equitable access to STEM education.</p>
+            </div>
+        </section>
+
+        <section id="press" class="section-with-accent">
+            <h2>Press</h2>
+
+            <div class="item">
+                <div class="item-title"><a href="https://spectrumnews1.com/ky/louisville/news/2024/02/12/jcps-student-inventors" target="_blank">Louisville students will present their inventions on the national stage</a></div>
+                <div class="item-meta">Spectrum News 1 (Kentucky) <span class="accent-dot"></span> February 2024</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title"><a href="https://mcgarvey.house.gov/media/press-releases/-congressman-morgan-mcgarvey-announces-winner-of-2023-congressional-app-challenge" target="_blank">Congressman Morgan McGarvey Announces Winner of 2023 Congressional App Challenge</a></div>
+                <div class="item-meta">U.S. House of Representatives <span class="accent-dot"></span> February 2024</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title"><a href="https://www.congressionalappchallenge.us/23-ky03/" target="_blank">Countdown2K - 2023 Congressional App Challenge Winner</a></div>
+                <div class="item-meta">Congressional App Challenge <span class="accent-dot"></span> 2024</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title"><a href="https://lrsef.org/lrsef-student-named-to-top-300-broadcom-masters-2022/" target="_blank">LRSEF Student Named to Top 300 Broadcom MASTERS 2022</a></div>
+                <div class="item-meta">Louisville Regional Science & Engineering Fair <span class="accent-dot"></span> 2022</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title"><a href="https://acrm2024.eventscribe.net/ajaxcalls/posterPresenterInfo.asp?PresenterID=1742379" target="_blank">ACRM 101st Annual Conference Presentation</a></div>
+                <div class="item-meta">American Congress of Rehabilitation Medicine <span class="accent-dot"></span> 2024</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0003999325004587" target="_blank">Omni Wheel: An Innovative Wheel Design With Lidar Sensing Capability</a></div>
+                <div class="item-meta">ScienceDirect <span class="accent-dot"></span> 2025</div>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>Research & Innovation</h2>
+
+            <div class="item">
+                <div class="item-title">OmniWheel Walker</div>
+                <div class="item-meta">2022–2024 <span class="accent-dot"></span> U.S. Provisional Patent No. 63/699,222</div>
+                <div class="item-description">Omnidirectional wheel system improving lateral stability for walker users. Drafted clinical trial protocol. <span class="research-highlight">Regeneron ISEF Grand Award, 3rd Place (2024)</span>.</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title">VitaSeat: Smart Toilet Seat for Safe Transfer</div>
+                <div class="item-meta">2024–2025</div>
+                <div class="item-description">Smart toilet seat with audio and haptic feedback for safe, independent transfers. <span class="research-highlight">Regeneron ISEF Special Award (2025)</span>.</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title">MagGRIP: Magnetorheological Elastomer Traction Platform</div>
+                <div class="item-meta">2024–Present</div>
+                <div class="item-description">Novel magnetic composite for slip-resistant assistive-device interfaces. Generalized across cane-tip and prosthetic-foot geometries. <span class="research-highlight">Regeneron ISEF Grand Award, 3rd Place (2026)</span>.</div>
+            </div>
+
+            <div class="item">
+                <div class="item-title">Nanoparticle-Induced Lipid Membrane Deformation</div>
+                <div class="item-meta">Summer 2026 <span class="accent-dot"></span> MIT Research Science Institute</div>
+                <div class="item-description">Computational biophysics research under Prof. Qin Qi. Extended published model with novel physical effect that dominated energy budget.</div>
+            </div>
+        </section>
+
+        <section id="awards" class="section-with-accent">
+            <h2>Awards & Recognition</h2>
+
+            <div class="award-grid">
+                <div class="award">
+                    <div class="award-name">Davidson Fellows Scholarship</div>
+                    <div class="award-year">Honorable Mention (2026)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">National Gallery of America's Young Inventors</div>
+                    <div class="award-year">Inducted (2025)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">NCWIT Award for Aspirations in Computing</div>
+                    <div class="award-year">National Honoree (2025)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">Spirit of Blueprint Award</div>
+                    <div class="award-year">MIT Blueprint Hackathon (2026)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">American Junior Academy of Science</div>
+                    <div class="award-year">Lifetime Fellow (2023)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">Regeneron ISEF Grand Award</div>
+                    <div class="award-year">3rd Place (2024, 2026)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">Kentucky State Science Fair</div>
+                    <div class="award-year">Best of Fair (6 years)</div>
+                </div>
+                <div class="award">
+                    <div class="award-name">AP Scholar with Distinction</div>
+                    <div class="award-year">AP Capstone Diploma (2024)</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p class="item-description">
+                Email: <a href="mailto:annikachadha8@gmail.com" class="contact-link">annikachadha8@gmail.com</a> <span class="accent-dot"></span> Phone: 502-644-6541
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2024 Annika Chadha. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
